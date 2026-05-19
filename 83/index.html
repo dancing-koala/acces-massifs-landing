@@ -1,0 +1,911 @@
+<!DOCTYPE html>
+<html lang="fr" prefix="og: https://ogp.me/ns#">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- ─── SEO PRIMARY ─── -->
+<title>Accès Massifs 83 — État d'ouverture des massifs du Var</title>
+<meta name="description" content="Application Android gratuite pour consulter en temps réel l'état d'accès aux massifs du Var (83). Notifications de fermeture, carte interactive, données officielles mises à jour quotidiennement.">
+<meta name="keywords" content="massifs Var, accès massifs 83, fermeture massifs Var, randonnée Var PACA, risque incendie massifs Var, application randonnée Provence, état massifs 83, alerte fermeture massifs Var, Sainte-Baume Var, massifs Toulon, Maures Esterel accès">
+<meta name="author" content="Corentin Bruneau">
+<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+<link rel="canonical" href="https://acces-massifs-83.app/">
+
+<!-- ─── OPEN GRAPH ─── -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://acces-massifs-83.app/">
+<meta property="og:title" content="Accès Massifs 83 — État d'ouverture des massifs du Var">
+<meta property="og:description" content="Consultez en temps réel l'état d'accès aux massifs du Var et recevez des notifications de fermeture. Application Android gratuite, données officielles.">
+<meta property="og:image" content="https://play-lh.googleusercontent.com/qByzOZuDY3nSJb9X8V2iL3CAjTKIzj3CR3lCq4zbsnnQDhueScryOR_pK0_i2kFGsJI=w600-h300-pc0xffffff-pd">
+<meta property="og:image:width" content="600">
+<meta property="og:image:height" content="300">
+<meta property="og:image:alt" content="Accès Massifs 83 — Application Android">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:site_name" content="Accès Massifs 83">
+
+<!-- ─── TWITTER CARD ─── -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Accès Massifs 83 — État d'ouverture des massifs du Var">
+<meta name="twitter:description" content="Consultez en temps réel l'état d'accès aux massifs du Var et recevez des notifications de fermeture. Application Android gratuite.">
+<meta name="twitter:image" content="https://play-lh.googleusercontent.com/qByzOZuDY3nSJb9X8V2iL3CAjTKIzj3CR3lCq4zbsnnQDhueScryOR_pK0_i2kFGsJI=w600-h300-pc0xffffff-pd">
+<meta name="twitter:image:alt" content="Accès Massifs 83 application Android">
+
+<!-- ─── MOBILE / PWA ─── -->
+<meta name="theme-color" content="#1a0d24">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Accès Massifs 83">
+
+<!-- ─── GEO ─── -->
+<meta name="geo.region" content="FR-83">
+<meta name="geo.placename" content="Var, Provence-Alpes-Côte d'Azur, France">
+
+<!-- ─── STRUCTURED DATA : SoftwareApplication ─── -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "Accès Massifs 83",
+  "description": "Application Android pour consulter l'état d'accès aux massifs du Var (83) et recevoir des notifications de fermeture. Données officielles mises à jour quotidiennement.",
+  "applicationCategory": "TravelApplication",
+  "applicationSubCategory": "Outdoor & Hiking",
+  "operatingSystem": "Android",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "EUR"
+  },
+  "downloadUrl": "https://play.google.com/store/apps/details?id=com.cobr.accesmassifs83",
+  "installUrl": "https://play.google.com/store/apps/details?id=com.cobr.accesmassifs83",
+  "author": {
+    "@type": "Person",
+    "name": "Corentin Bruneau",
+    "email": "ccbbruneau@gmail.com"
+  },
+  "inLanguage": "fr",
+  "countriesSupported": "FR",
+  "contentRating": "Rated for 3+",
+  "featureList": [
+    "Notifications de fermeture des massifs",
+    "Données officielles mises à jour quotidiennement",
+    "Sélection de date pour planifier",
+    "Affichage cartographique",
+    "Aucune donnée personnelle collectée",
+    "Utilisation gratuite sans compte"
+  ],
+  "screenshot": "https://play-lh.googleusercontent.com/D2o0uYqo82VjmtDHKGko4gr1ohR1SVef0AMVp7KaiihmtrWJikOXxVLy329YaLczzeg=w526-h296"
+}
+</script>
+
+<!-- ─── STRUCTURED DATA : FAQPage ─── -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "L'application Accès Massifs 83 est-elle gratuite ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Oui, l'application est entièrement gratuite et ne contient aucune publicité."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Quels massifs du Var sont couverts par l'application ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "L'application couvre l'ensemble des massifs du département du Var (83), notamment les Maures, l'Estérel, la Sainte-Baume et tous les massifs répertoriés par la préfecture du Var."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "D'où proviennent les données sur l'accès aux massifs du Var ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Les données sont issues des sources officielles de la préfecture du Var et sont synchronisées quotidiennement."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "L'application collecte-t-elle mes données personnelles ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Non, aucune donnée personnelle n'est collectée. La localisation peut être utilisée localement pour vous situer sur la carte, mais n'est jamais transmise."
+      }
+    }
+  ]
+}
+</script>
+
+<!-- ─── STRUCTURED DATA : BreadcrumbList ─── -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Accueil",
+      "item": "https://acces-massifs-83.app/"
+    }
+  ]
+}
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --stone: #f3f0f6;
+    --rock: #1a0d24;
+    --primary: #744C93;
+    --primary-light: #9b70bc;
+    --primary-dark: #4e2f6a;
+    --fog: #a890bb;
+    --light-rock: #3d2554;
+    --accent: #c490e8;
+  }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    font-family: 'DM Sans', sans-serif;
+    background: var(--stone);
+    color: var(--rock);
+    overflow-x: hidden;
+  }
+
+  /* ─── HERO ─── */
+  .hero {
+    min-height: 100svh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    position: relative;
+    overflow: hidden;
+    background: var(--rock);
+  }
+
+  .hero-bg {
+    position: absolute; inset: 0;
+    background:
+      radial-gradient(ellipse 80% 60% at 70% 35%, rgba(116,76,147,0.3) 0%, transparent 65%),
+      radial-gradient(ellipse 50% 70% at 15% 80%, rgba(196,144,232,0.12) 0%, transparent 55%),
+      linear-gradient(150deg, #0e0615 0%, #1a0d24 50%, #120a1c 100%);
+  }
+
+  .hero-bg::after {
+    content: '';
+    position: absolute; inset: 0;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='600' height='600'%3E%3Cpath d='M0,300 Q150,220 300,280 Q450,340 600,260' stroke='rgba(116,76,147,0.09)' stroke-width='1' fill='none'/%3E%3Cpath d='M0,350 Q150,270 300,330 Q450,390 600,310' stroke='rgba(116,76,147,0.09)' stroke-width='1' fill='none'/%3E%3Cpath d='M0,250 Q150,170 300,230 Q450,290 600,210' stroke='rgba(116,76,147,0.07)' stroke-width='1' fill='none'/%3E%3Cpath d='M0,400 Q150,320 300,380 Q450,440 600,360' stroke='rgba(196,144,232,0.06)' stroke-width='1' fill='none'/%3E%3Cpath d='M0,200 Q150,120 300,180 Q450,240 600,160' stroke='rgba(116,76,147,0.05)' stroke-width='1' fill='none'/%3E%3Cpath d='M0,450 Q150,370 300,430 Q450,490 600,410' stroke='rgba(196,144,232,0.05)' stroke-width='1' fill='none'/%3E%3Cpath d='M0,150 Q150,70 300,130 Q450,190 600,110' stroke='rgba(116,76,147,0.04)' stroke-width='1' fill='none'/%3E%3Cpath d='M0,500 Q150,420 300,480 Q450,540 600,460' stroke='rgba(196,144,232,0.04)' stroke-width='1' fill='none'/%3E%3C/svg%3E");
+    background-size: 600px 600px;
+    opacity: 0.7;
+  }
+
+  nav {
+    position: relative; z-index: 10;
+    padding: 1.5rem 2.5rem;
+    display: flex; align-items: center; justify-content: space-between;
+  }
+
+  .nav-logo {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1.3rem;
+    color: var(--stone);
+    letter-spacing: 0.1em;
+    opacity: 0.9;
+  }
+
+  .nav-badge {
+    font-size: 0.7rem;
+    font-weight: 500;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--fog);
+    border: 1px solid rgba(168,144,187,0.35);
+    padding: 0.3rem 0.8rem;
+    border-radius: 2rem;
+  }
+
+  .hero-content {
+    position: relative; z-index: 10;
+    display: flex; flex-direction: column;
+    justify-content: center;
+    padding: 2rem 2.5rem 3rem;
+    max-width: 900px;
+  }
+
+  .hero-eyebrow {
+    font-size: 0.75rem;
+    font-weight: 500;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin-bottom: 1.5rem;
+    display: flex; align-items: center; gap: 0.75rem;
+    opacity: 0;
+    animation: fadeUp 0.8s 0.2s ease forwards;
+  }
+
+  .hero-eyebrow::before {
+    content: '';
+    display: block; width: 2rem; height: 1px;
+    background: var(--accent);
+  }
+
+  h1 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: clamp(4rem, 12vw, 9rem);
+    line-height: 0.9;
+    color: var(--stone);
+    letter-spacing: 0.02em;
+    margin-bottom: 1.5rem;
+    opacity: 0;
+    animation: fadeUp 0.8s 0.4s ease forwards;
+  }
+
+  h1 em {
+    font-style: normal;
+    color: var(--accent);
+  }
+
+  .hero-sub {
+    font-size: clamp(1rem, 2vw, 1.2rem);
+    font-weight: 300;
+    line-height: 1.6;
+    color: var(--fog);
+    max-width: 480px;
+    margin-bottom: 2.5rem;
+    opacity: 0;
+    animation: fadeUp 0.8s 0.6s ease forwards;
+  }
+
+  .cta-group {
+    display: flex; align-items: center; gap: 1.25rem; flex-wrap: wrap;
+    opacity: 0;
+    animation: fadeUp 0.8s 0.8s ease forwards;
+  }
+
+  .btn-primary {
+    display: inline-flex; align-items: center; gap: 0.6rem;
+    background: var(--primary);
+    color: white;
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 500;
+    letter-spacing: 0.05em;
+    padding: 0.9rem 1.8rem;
+    border-radius: 4px;
+    transition: transform 0.2s, box-shadow 0.2s, background 0.2s;
+    box-shadow: 0 4px 20px rgba(116,76,147,0.45);
+  }
+
+  .btn-primary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 30px rgba(116,76,147,0.6);
+    background: var(--primary-light);
+  }
+
+  .btn-primary svg { flex-shrink: 0; }
+
+  .hero-note {
+    font-size: 0.75rem;
+    color: var(--fog);
+    font-weight: 300;
+  }
+
+  .hero-bottom {
+    position: relative; z-index: 10;
+    padding: 1.5rem 2.5rem;
+    display: flex; align-items: center; justify-content: space-between;
+    border-top: 1px solid rgba(168,144,187,0.12);
+    opacity: 0;
+    animation: fadeUp 0.8s 1s ease forwards;
+  }
+
+  .hero-stats { display: flex; gap: 3rem; }
+
+  .stat { text-align: left; }
+  .stat-num {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1.8rem;
+    color: var(--stone);
+    letter-spacing: 0.05em;
+  }
+  .stat-label {
+    font-size: 0.7rem;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--fog);
+    font-weight: 300;
+  }
+
+  .scroll-hint {
+    display: flex; flex-direction: column; align-items: center; gap: 0.4rem;
+    color: var(--fog); font-size: 0.65rem; letter-spacing: 0.2em; text-transform: uppercase;
+  }
+  .scroll-line {
+    width: 1px; height: 2.5rem;
+    background: linear-gradient(to bottom, var(--fog), transparent);
+    animation: scrollPulse 2s infinite;
+  }
+
+  /* ─── FEATURES ─── */
+  .features {
+    padding: clamp(4rem, 8vw, 7rem) 2.5rem;
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+
+  .section-label {
+    font-size: 0.7rem;
+    font-weight: 500;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: var(--primary);
+    margin-bottom: 1rem;
+    display: flex; align-items: center; gap: 0.75rem;
+  }
+  .section-label::before {
+    content: '';
+    width: 1.5rem; height: 1px; background: var(--primary);
+  }
+
+  .features-header {
+    display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; align-items: end;
+    margin-bottom: 4rem;
+  }
+
+  h2 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: clamp(2.5rem, 5vw, 4rem);
+    line-height: 1;
+    letter-spacing: 0.03em;
+  }
+
+  .features-intro {
+    font-size: 1rem;
+    line-height: 1.7;
+    color: var(--light-rock);
+    font-weight: 300;
+  }
+
+  .features-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5px;
+    background: #c4b8d0;
+    border: 1.5px solid #c4b8d0;
+  }
+
+  .feature-card {
+    background: var(--stone);
+    padding: 2rem 1.75rem;
+    transition: background 0.25s;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .feature-card::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 2px;
+    background: var(--primary);
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.3s ease;
+  }
+
+  .feature-card:hover::before { transform: scaleX(1); }
+  .feature-card:hover { background: white; }
+
+  .feature-icon {
+    width: 2.5rem; height: 2.5rem;
+    border-radius: 6px;
+    background: var(--primary);
+    display: flex; align-items: center; justify-content: center;
+    margin-bottom: 1.25rem;
+    color: white;
+    font-size: 1.1rem;
+  }
+
+  .feature-title {
+    font-weight: 500;
+    font-size: 1rem;
+    margin-bottom: 0.6rem;
+    color: var(--rock);
+  }
+
+  .feature-desc {
+    font-size: 0.875rem;
+    line-height: 1.65;
+    color: var(--light-rock);
+    font-weight: 300;
+  }
+
+  /* ─── ALERT SECTION ─── */
+  .alert-section {
+    background: var(--primary-dark);
+    padding: clamp(3rem, 6vw, 5rem) 2.5rem;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .alert-section::before {
+    content: '';
+    position: absolute;
+    right: -5rem; top: -5rem;
+    width: 25rem; height: 25rem;
+    background: radial-gradient(circle, rgba(196,144,232,0.2) 0%, transparent 70%);
+    pointer-events: none;
+  }
+
+  .alert-inner {
+    max-width: 1100px; margin: 0 auto;
+    display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; align-items: center;
+  }
+
+  .alert-text h2 { color: var(--stone); margin-bottom: 1.25rem; }
+
+  .alert-text p {
+    color: rgba(243,240,246,0.75);
+    font-size: 1rem; line-height: 1.7; font-weight: 300;
+    margin-bottom: 2rem;
+  }
+
+  .status-demo {
+    display: flex; flex-direction: column; gap: 0.75rem;
+  }
+
+  .status-item {
+    display: flex; align-items: center; gap: 1rem;
+    background: rgba(243,240,246,0.08);
+    border: 1px solid rgba(243,240,246,0.12);
+    border-radius: 6px;
+    padding: 0.85rem 1.1rem;
+    color: var(--stone);
+    font-size: 0.875rem;
+    transition: background 0.2s;
+  }
+
+  .status-item:hover { background: rgba(243,240,246,0.14); }
+
+  .status-dot {
+    width: 0.6rem; height: 0.6rem;
+    border-radius: 50%;
+    flex-shrink: 0;
+  }
+  .status-dot.open    { background: #4caf50; box-shadow: 0 0 6px rgba(76,175,80,0.6); }
+  .status-dot.closed  { background: #e53935; box-shadow: 0 0 6px rgba(229,57,53,0.6); }
+  .status-dot.partial { background: #fb8c00; box-shadow: 0 0 6px rgba(251,140,0,0.6); }
+
+  .status-name { flex: 1; font-weight: 400; }
+  .status-val  { font-size: 0.75rem; opacity: 0.65; letter-spacing: 0.05em; }
+
+  /* ─── PRIVACY ─── */
+  .privacy-section {
+    padding: clamp(3rem, 6vw, 5rem) 2.5rem;
+    max-width: 1100px; margin: 0 auto;
+    display: grid; grid-template-columns: 1fr 2fr; gap: 4rem; align-items: center;
+  }
+
+  .privacy-icon-wrap {
+    display: flex; align-items: center; justify-content: center;
+  }
+
+  .privacy-circle {
+    width: clamp(8rem, 15vw, 12rem);
+    height: clamp(8rem, 15vw, 12rem);
+    border-radius: 50%;
+    border: 1.5px solid #c4b8d0;
+    display: flex; align-items: center; justify-content: center;
+    font-size: clamp(3rem, 6vw, 4.5rem);
+    position: relative;
+  }
+
+  .privacy-circle::before {
+    content: '';
+    position: absolute;
+    inset: -8px;
+    border-radius: 50%;
+    border: 1px dashed rgba(116,76,147,0.35);
+    animation: rotateSlow 20s linear infinite;
+  }
+
+  .privacy-content h2 { margin-bottom: 1rem; }
+  .privacy-content p {
+    font-size: 1rem; line-height: 1.7; font-weight: 300;
+    color: var(--light-rock); margin-bottom: 1.5rem;
+  }
+
+  .privacy-tags { display: flex; flex-wrap: wrap; gap: 0.6rem; }
+  .tag {
+    font-size: 0.75rem;
+    font-weight: 500;
+    letter-spacing: 0.08em;
+    padding: 0.35rem 0.85rem;
+    border-radius: 2rem;
+    border: 1.5px solid var(--primary);
+    color: var(--primary);
+  }
+
+  /* ─── FAQ ─── */
+  .faq-section {
+    background: #ebe7ef;
+    padding: clamp(3rem, 6vw, 5rem) 2.5rem;
+  }
+  .faq-inner {
+    max-width: 1100px; margin: 0 auto;
+  }
+  .faq-inner h2 { margin-bottom: 2.5rem; }
+  .faq-list { display: flex; flex-direction: column; gap: 1px; background: #c4b8d0; border: 1.5px solid #c4b8d0; }
+  .faq-item { background: #ebe7ef; }
+  .faq-question {
+    width: 100%; text-align: left; background: none; border: none;
+    padding: 1.2rem 1.5rem;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 0.95rem; font-weight: 500; color: var(--rock);
+    cursor: pointer;
+    display: flex; justify-content: space-between; align-items: center; gap: 1rem;
+    transition: background 0.2s;
+  }
+  .faq-question:hover { background: white; }
+  .faq-question[aria-expanded="true"] { background: white; }
+  .faq-arrow { transition: transform 0.25s; font-size: 0.7rem; color: var(--primary); flex-shrink: 0; }
+  .faq-question[aria-expanded="true"] .faq-arrow { transform: rotate(180deg); }
+  .faq-answer {
+    max-height: 0; overflow: hidden; transition: max-height 0.3s ease;
+    padding: 0 1.5rem;
+    font-size: 0.875rem; line-height: 1.7; font-weight: 300; color: var(--light-rock);
+    background: white;
+  }
+  .faq-answer.open { max-height: 200px; padding: 0 1.5rem 1.25rem; }
+
+  /* ─── CTA FINAL ─── */
+  .final-cta {
+    background: var(--rock);
+    padding: clamp(4rem, 8vw, 6rem) 2.5rem;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .final-cta::before {
+    content: '83';
+    position: absolute;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 30vw;
+    color: rgba(116,76,147,0.06);
+    left: 50%; top: 50%;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+    letter-spacing: -0.05em;
+  }
+
+  .final-cta h2 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: clamp(2.5rem, 6vw, 5rem);
+    color: var(--stone);
+    margin-bottom: 1rem;
+    position: relative;
+  }
+
+  .final-cta p {
+    color: var(--fog); font-size: 1rem; font-weight: 300; line-height: 1.7;
+    max-width: 450px; margin: 0 auto 2.5rem; position: relative;
+  }
+
+  .final-cta .btn-primary { position: relative; }
+
+  /* ─── FOOTER ─── */
+  footer {
+    padding: 2rem 2.5rem;
+    display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap;
+    gap: 1rem;
+    border-top: 1px solid rgba(116,76,147,0.15);
+  }
+
+  footer p { font-size: 0.8rem; color: #8a7a96; font-weight: 300; }
+  footer a { color: var(--primary); text-decoration: none; font-size: 0.8rem; font-weight: 400; }
+  footer a:hover { text-decoration: underline; }
+
+  /* ─── ANIMATIONS ─── */
+  @keyframes fadeUp {
+    from { opacity: 0; transform: translateY(20px); }
+    to   { opacity: 1; transform: translateY(0); }
+  }
+  @keyframes scrollPulse {
+    0%, 100% { opacity: 0.4; }
+    50%       { opacity: 1; }
+  }
+  @keyframes rotateSlow {
+    to { transform: rotate(360deg); }
+  }
+
+  /* ─── RESPONSIVE ─── */
+  @media (max-width: 768px) {
+    nav { padding: 1.25rem; }
+    .nav-badge { display: none; }
+    .hero-content { padding: 2rem 1.25rem 2rem; }
+    .hero-bottom { padding: 1.25rem; flex-direction: column; align-items: flex-start; gap: 1.5rem; }
+    .hero-stats { gap: 2rem; }
+    .scroll-hint { display: none; }
+    .features { padding: 3rem 1.25rem; }
+    .features-header { grid-template-columns: 1fr; gap: 1rem; }
+    .alert-inner { grid-template-columns: 1fr; gap: 2rem; }
+    .privacy-section { grid-template-columns: 1fr; gap: 2rem; }
+    .privacy-icon-wrap { justify-content: flex-start; }
+    .faq-section { padding: 3rem 1.25rem; }
+    footer { flex-direction: column; align-items: flex-start; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <section class="hero" aria-label="Présentation de l'application Accès Massifs 83">
+    <div class="hero-bg" aria-hidden="true"></div>
+
+    <nav aria-label="Navigation principale">
+      <span class="nav-logo">Accès Massifs 83</span>
+      <span class="nav-badge">Var</span>
+    </nav>
+
+    <div class="hero-content">
+      <p class="hero-eyebrow">Application Android gratuite</p>
+      <h1>Accès<br><em>Massifs</em><br>83</h1>
+      <p class="hero-sub">Consultez en temps réel l'état d'ouverture des massifs du Var. Soyez notifié avant de prendre la route.</p>
+      <div class="cta-group">
+        <a href="https://play.google.com/store/apps/details?id=com.cobr.accesmassifs83"
+           class="btn-primary"
+           target="_blank"
+           rel="noopener"
+           aria-label="Télécharger Accès Massifs 83 sur Google Play">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M3.18 23.76c.33.18.7.2 1.05.04l12.1-7-2.84-2.84-10.31 9.8ZM.5 1.56C.19 1.93 0 2.47 0 3.16v17.68c0 .69.19 1.23.51 1.6l.08.08 9.9-9.9v-.23L.58 1.48.5 1.56ZM20.4 10.34l-2.88-1.66-3.17 3.17 3.17 3.17 2.9-1.68c.82-.48.82-1.25-.02-1.73v.01-.28ZM4.23.24 16.32 7.23l-2.84 2.84L3.18.27C3.52.1 3.9.12 4.23.24Z"/></svg>
+          Télécharger sur Google Play
+        </a>
+        <span class="hero-note">Gratuit · Android · Données officielles</span>
+      </div>
+    </div>
+
+    <div class="hero-bottom" aria-hidden="true">
+      <div class="hero-stats">
+        <div class="stat">
+          <div class="stat-num">100+</div>
+          <div class="stat-label">Téléchargements</div>
+        </div>
+        <div class="stat">
+          <div class="stat-num">3+</div>
+          <div class="stat-label">Tous publics</div>
+        </div>
+        <div class="stat">
+          <div class="stat-num">0</div>
+          <div class="stat-label">Données collectées</div>
+        </div>
+      </div>
+      <div class="scroll-hint">
+        <div class="scroll-line"></div>
+        Découvrir
+      </div>
+    </div>
+  </section>
+</header>
+
+<main>
+
+<!-- ─── FEATURES ─── -->
+<section class="features" aria-labelledby="features-title">
+  <div class="section-label" aria-hidden="true">Fonctionnalités</div>
+  <div class="features-header">
+    <h2 id="features-title">Tout ce qu'il vous faut</h2>
+    <p class="features-intro">Une interface claire, des données mises à jour chaque jour depuis les sources officielles du Var. Rien de superflu.</p>
+  </div>
+
+  <div class="features-grid">
+    <article class="feature-card">
+      <div class="feature-icon" aria-hidden="true">🔔</div>
+      <h3 class="feature-title">Notifications d'accès</h3>
+      <p class="feature-desc">Surveillez un ou plusieurs massifs varois et recevez une alerte dès qu'une fermeture est annoncée, avant même de partir.</p>
+    </article>
+    <article class="feature-card">
+      <div class="feature-icon" aria-hidden="true">📅</div>
+      <h3 class="feature-title">Sélection de date</h3>
+      <p class="feature-desc">Planifiez à l'avance en consultant l'état d'accès pour une date donnée. Idéal pour organiser une sortie en semaine.</p>
+    </article>
+    <article class="feature-card">
+      <div class="feature-icon" aria-hidden="true">🗺️</div>
+      <h3 class="feature-title">Affichage cartographique</h3>
+      <p class="feature-desc">Visualisez la localisation de chaque massif sur une carte pour identifier rapidement la zone qui vous concerne.</p>
+    </article>
+    <article class="feature-card">
+      <div class="feature-icon" aria-hidden="true">📡</div>
+      <h3 class="feature-title">Données officielles</h3>
+      <p class="feature-desc">Les informations sont issues des sources officielles de la préfecture du Var et mises à jour quotidiennement.</p>
+    </article>
+    <article class="feature-card">
+      <div class="feature-icon" aria-hidden="true">⚡</div>
+      <h3 class="feature-title">Simple et rapide</h3>
+      <p class="feature-desc">Interface épurée conçue pour obtenir l'information en un coup d'œil. Pas de compte, pas de publicité, pas de complexité.</p>
+    </article>
+    <article class="feature-card">
+      <div class="feature-icon" aria-hidden="true">🔒</div>
+      <h3 class="feature-title">Aucune donnée collectée</h3>
+      <p class="feature-desc">Aucune information personnelle n'est enregistrée ni partagée. Votre vie privée est respectée sans compromis.</p>
+    </article>
+  </div>
+</section>
+
+<!-- ─── ALERT SECTION ─── -->
+<section class="alert-section" aria-labelledby="alert-title">
+  <div class="alert-inner">
+    <div class="alert-text">
+      <div class="section-label" style="color: rgba(243,240,246,0.5);" aria-hidden="true">État en temps réel</div>
+      <h2 id="alert-title">Ne soyez jamais pris au dépourvu</h2>
+      <p>En période de risque incendie, les massifs varois peuvent être fermés du jour au lendemain. L'application surveille l'accès à votre place.</p>
+      <a href="https://play.google.com/store/apps/details?id=com.cobr.accesmassifs83"
+         class="btn-primary"
+         target="_blank"
+         rel="noopener"
+         style="display:inline-flex;"
+         aria-label="Télécharger Accès Massifs 83 gratuitement sur Google Play">
+        Télécharger gratuitement
+      </a>
+    </div>
+    <div class="status-demo" role="list" aria-label="Exemple d'état d'accès aux massifs du Var">
+      <div class="status-item" role="listitem">
+        <span class="status-dot open" aria-hidden="true"></span>
+        <span class="status-name">Maures</span>
+        <span class="status-val">OUVERT</span>
+      </div>
+      <div class="status-item" role="listitem">
+        <span class="status-dot closed" aria-hidden="true"></span>
+        <span class="status-name">Estérel</span>
+        <span class="status-val">FERMÉ</span>
+      </div>
+      <div class="status-item" role="listitem">
+        <span class="status-dot partial" aria-hidden="true"></span>
+        <span class="status-name">Sainte-Baume</span>
+        <span class="status-val">PARTIEL</span>
+      </div>
+      <div class="status-item" role="listitem">
+        <span class="status-dot open" aria-hidden="true"></span>
+        <span class="status-name">Haut-Var</span>
+        <span class="status-val">OUVERT</span>
+      </div>
+      <div class="status-item" role="listitem">
+        <span class="status-dot closed" aria-hidden="true"></span>
+        <span class="status-name">Îles d'Hyères</span>
+        <span class="status-val">FERMÉ</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ─── PRIVACY ─── -->
+<section class="privacy-section" aria-labelledby="privacy-title">
+  <div class="privacy-icon-wrap" aria-hidden="true">
+    <div class="privacy-circle">🛡️</div>
+  </div>
+  <div class="privacy-content">
+    <div class="section-label" aria-hidden="true">Confidentialité</div>
+    <h2 id="privacy-title">Zéro collecte, zéro compromis</h2>
+    <p>Aucune donnée personnelle n'est collectée. L'application n'a pas besoin de savoir qui vous êtes pour fonctionner. La localisation peut être utilisée pour vous situer sur la carte, mais n'est jamais transmise.</p>
+    <div class="privacy-tags">
+      <span class="tag">Aucune publicité</span>
+      <span class="tag">Aucun compte requis</span>
+      <span class="tag">Données officielles</span>
+      <span class="tag">Gratuit</span>
+    </div>
+  </div>
+</section>
+
+<!-- ─── FAQ ─── -->
+<section class="faq-section" aria-labelledby="faq-title">
+  <div class="faq-inner">
+    <div class="section-label" aria-hidden="true">Questions fréquentes</div>
+    <h2 id="faq-title">On répond à vos questions</h2>
+    <div class="faq-list" role="list">
+
+      <div class="faq-item" role="listitem">
+        <button class="faq-question" aria-expanded="false" aria-controls="faq-1">
+          L'application est-elle gratuite ?
+          <span class="faq-arrow" aria-hidden="true">▼</span>
+        </button>
+        <div class="faq-answer" id="faq-1" role="region">
+          Oui, entièrement gratuite, sans abonnement ni publicité.
+        </div>
+      </div>
+
+      <div class="faq-item" role="listitem">
+        <button class="faq-question" aria-expanded="false" aria-controls="faq-2">
+          Quels massifs du Var sont couverts ?
+          <span class="faq-arrow" aria-hidden="true">▼</span>
+        </button>
+        <div class="faq-answer" id="faq-2" role="region">
+          L'application couvre l'ensemble des massifs du département du Var (83) : les Maures, l'Estérel, la Sainte-Baume, les massifs de Toulon, les Bessillons et tous les massifs répertoriés par la préfecture du Var.
+        </div>
+      </div>
+
+      <div class="faq-item" role="listitem">
+        <button class="faq-question" aria-expanded="false" aria-controls="faq-3">
+          D'où viennent les données sur l'état des massifs ?
+          <span class="faq-arrow" aria-hidden="true">▼</span>
+        </button>
+        <div class="faq-answer" id="faq-3" role="region">
+          Les données proviennent des sources officielles de la préfecture du Var et sont synchronisées quotidiennement.
+        </div>
+      </div>
+
+      <div class="faq-item" role="listitem">
+        <button class="faq-question" aria-expanded="false" aria-controls="faq-4">
+          L'application fonctionne-t-elle sur iPhone ?
+          <span class="faq-arrow" aria-hidden="true">▼</span>
+        </button>
+        <div class="faq-answer" id="faq-4" role="region">
+          Non, Accès Massifs 83 est disponible uniquement sur Android via le Google Play Store.
+        </div>
+      </div>
+
+      <div class="faq-item" role="listitem">
+        <button class="faq-question" aria-expanded="false" aria-controls="faq-5">
+          Mes données personnelles sont-elles collectées ?
+          <span class="faq-arrow" aria-hidden="true">▼</span>
+        </button>
+        <div class="faq-answer" id="faq-5" role="region">
+          Aucune donnée personnelle n'est collectée ni transmise. La géolocalisation peut être utilisée localement pour vous situer sur la carte, mais reste sur votre appareil.
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ─── FINAL CTA ─── -->
+<section class="final-cta" aria-labelledby="cta-title">
+  <h2 id="cta-title">Prêt pour la prochaine sortie ?</h2>
+  <p>Téléchargez l'application gratuitement et partez randonner dans le Var en sachant que vos massifs sont accessibles.</p>
+  <a href="https://play.google.com/store/apps/details?id=com.cobr.accesmassifs83"
+     class="btn-primary"
+     target="_blank"
+     rel="noopener"
+     aria-label="Télécharger Accès Massifs 83 sur Google Play Store">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M3.18 23.76c.33.18.7.2 1.05.04l12.1-7-2.84-2.84-10.31 9.8ZM.5 1.56C.19 1.93 0 2.47 0 3.16v17.68c0 .69.19 1.23.51 1.6l.08.08 9.9-9.9v-.23L.58 1.48.5 1.56ZM20.4 10.34l-2.88-1.66-3.17 3.17 3.17 3.17 2.9-1.68c.82-.48.82-1.25-.02-1.73v.01-.28ZM4.23.24 16.32 7.23l-2.84 2.84L3.18.27C3.52.1 3.9.12 4.23.24Z"/></svg>
+    Télécharger sur Google Play
+  </a>
+</section>
+
+</main>
+
+<!-- ─── FOOTER ─── -->
+<footer>
+  <p>© 2025 Corentin Bruneau · Application non-officielle · Données : Préfecture du Var</p>
+  <div style="display:flex;gap:1.5rem;align-items:center;">
+    <a href="https://www.termsfeed.com/live/71021663-bd0e-434a-aae9-6b1aa5a8f4ee" target="_blank" rel="noopener">Politique de confidentialité</a>
+    <a href="mailto:ccbbruneau@gmail.com">Contact</a>
+  </div>
+</footer>
+
+<script>
+  document.querySelectorAll('.faq-question').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const expanded = btn.getAttribute('aria-expanded') === 'true';
+      const answerId = btn.getAttribute('aria-controls');
+      const answer = document.getElementById(answerId);
+      document.querySelectorAll('.faq-question').forEach(b => b.setAttribute('aria-expanded', 'false'));
+      document.querySelectorAll('.faq-answer').forEach(a => a.classList.remove('open'));
+      if (!expanded) {
+        btn.setAttribute('aria-expanded', 'true');
+        answer.classList.add('open');
+      }
+    });
+  });
+</script>
+
+</body>
+</html>
